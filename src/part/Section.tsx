@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Section.module.css';
+import style from './Section.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 
 export function Section() {

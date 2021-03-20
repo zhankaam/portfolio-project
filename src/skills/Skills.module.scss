@@ -2,7 +2,7 @@
 
 .skillsBlock {
     min-height: 100vh;
-    background-color: $bgColor;
+    background-color: $bgSecondColor;
     .skillsContainer {
         flex-direction: column;
         justify-content: flex-start;
@@ -13,6 +13,7 @@
             justify-content: space-between;
             flex-wrap: wrap;
             box-sizing: border-box;
+
         }
     }
 }

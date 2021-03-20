@@ -1,0 +1,29 @@
+@import '../common/styles/sass/variables';
+
+.footer {
+    height: 30vh;
+    background-color: $bgSecondColor;
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        .title {
+            background-color: powderblue;
+        }
+        .socialMenu {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .icon {
+                height: 60px;
+                width: 60px;
+                background-color: #b4c2d9;
+            }
+        }
+
+    }
+}
+
+

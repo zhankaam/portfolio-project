@@ -1,0 +1,27 @@
+@import '../common/styles/sass/variables';
+
+.fullBlock {
+    height: 70vh;
+    background-color: $bgColor;
+    .contactContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        .title {
+            background-color: oldlace;
+        }
+        .form {
+            border: 2px solid tan;
+            width: 60%;
+            height: 250px;
+            padding: 20px;
+            box-sizing: content-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
