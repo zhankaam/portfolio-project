@@ -40,13 +40,13 @@
         padding: 25px 20px;
         .projectName {
         color: #fff;
-        @include text($TitleFontFamily,1.5rem,1.2,capitalize);
+        @include text($TitleFontFamily,1.5rem,1.2,uppercase);
         letter-spacing: -.035em;
         margin: 8px 0 5px;
-        &:hover { color: #6fb4b2; }
+        &:hover { color: #c79864; }
         }
         .description {
-            @include text($DescriptionFontFamily,14px, 1.3,uppercase);
+            @include text($DescriptionFontFamily,18px, 1.3,null);
             //font-weight: 500;
             color: #ddd;
         }
