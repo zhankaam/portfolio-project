@@ -1,0 +1,24 @@
+@import '../../styles/sass/variables';
+
+.contentTitle {
+    /*background-color: #c16450;*/
+    font-family: 'monument extended',Sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -.035em;
+    line-height: 1.15;
+    /*color: #b99e64;*/
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    &::before {
+        content: "";
+        background: $primaryColor;
+        width: 55px;
+        height: 1px;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+}
