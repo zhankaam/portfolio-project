@@ -11,6 +11,25 @@
         }
         .button {
             margin-top: 20px;
+            position: relative;
+            display: inline-block;
+            min-width: 155px;
+            color: #fff;
+            padding: 16px 0;
+            font-family: Georgia;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+            background-color: #c79864;
+            border: 1px solid #c79864;
+            border-radius: 4px;
+            outline: none;
+            -webkit-transition: all .4s ease-in-out;
+            &:hover {
+                background-color: #333;
+            }
         }
     }
 }

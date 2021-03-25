@@ -1,20 +1,20 @@
 import React from 'react';
-import style from './Contact.module.scss';
+import s from './Contact.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 import { Title } from '../common/components/title/Title';
 
 export function Contact() {
     return (
-        <div className={style.fullBlock}>
-            <div className={`${styleContainer.container} ${style.contactContainer}`}>
-               <Title title={"Contact"} />
-                <form className={style.form}>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <textarea></textarea>
-                    <button>Send</button>
-                </form>
-            </div>
+        <div className={s.fullBlock}>
+            <div className={`${styleContainer.container} ${s.contactContainer}`}>
+                <div> <Title title={"Contact me"} /></div>
+                    <form className={s.form}>
+                            <input type="text" placeholder={'first name'} className={s.inputClass}/>
+                            <input type="text" placeholder={'last name'} className={s.inputClass}/>
+                        <textarea  placeholder={'message'} className={s.inputClass}/>
+                        <button className={s.button}>Send</button>
+                    </form>
+                   </div>
         </div>
     );
 }
