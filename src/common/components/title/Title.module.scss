@@ -2,15 +2,14 @@
 
 .contentTitle {
     /*background-color: #c16450;*/
+    margin: 0 0 30px;
     font-family: 'monument extended',Sans-serif;
     font-weight: 400;
-    //font-size: 32px;
     text-transform: uppercase;
     letter-spacing: -.035em;
     line-height: 1.1;
-    /*color: #b99e64;*/
     color: #fff;
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
     position: relative;
     &::before {
         content: "";
@@ -21,5 +20,8 @@
         bottom: -30px;
         left: 50%;
         transform: translate(-50%,50%);
+    }
+    .contentTitle h2 {
+        margin: 0;
     }
 }
