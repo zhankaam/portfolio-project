@@ -15,7 +15,7 @@ import {Title} from "../common/components/title/Title";
                  <Skill title={"Redux"} context={"life is beautiful"}/>
                  <Skill title={"TypeScript"} context={"life is beautiful"}/>
                  <Skill title={"React"} context={"Only my dream keeps me alive"}/>
-                 <Skill title={"JavaScript"} context={"born to die"}/>
+                 <Skill title={"JS/TS"} context={"born to die"}/>
                  <Skill title={"CSS"} context={"life is beautiful"}/>
                  <Skill title={"HTML"} context={"life is beautiful"}/>
              </div>
