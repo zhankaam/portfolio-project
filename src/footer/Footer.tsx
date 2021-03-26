@@ -1,6 +1,10 @@
 import React from 'react';
 import s from './Footer.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { instagram } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 
 export function Footer() {
     return (
@@ -24,7 +28,9 @@ export function Footer() {
                     </div>
                 </div>
                 <div className={s.socialMenu}>
-                    <div className={s.icon}></div>
+                    <div className={s.icon}>
+                        <FontAwesomeIcon icon={faEnvelope}/>
+                    </div>
                     <div className={s.icon}></div>
                     <div className={s.icon}></div>
                     <div className={s.icon}></div>
