@@ -3,6 +3,7 @@ import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
+import {faReact} from "@fortawesome/free-brands-svg-icons";
 
  export function Skills() {
     return (
@@ -14,7 +15,7 @@ import {Title} from "../common/components/title/Title";
                  <Skill title={"Rest API"} context={"life is beautiful"}/>
                  <Skill title={"Redux"} context={"life is beautiful"}/>
                  <Skill title={"TypeScript"} context={"life is beautiful"}/>
-                 <Skill title={"React"} context={"Only my dream keeps me alive"}/>
+                 <Skill title={"React"} context={"Only my dream keeps me alive"} icon={faReact}/>
                  <Skill title={"JS/TS"} context={"born to die"}/>
                  <Skill title={"CSS"} context={"life is beautiful"}/>
                  <Skill title={"HTML"} context={"life is beautiful"}/>

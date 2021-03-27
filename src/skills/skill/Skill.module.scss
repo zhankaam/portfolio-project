@@ -1,3 +1,5 @@
+@import '../../common/styles/sass/variables';
+
 .skill {
     width: 250px;
     background-color: white;
@@ -6,11 +8,14 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     .icon {
         height: 60px;
         width: 60px;
-        background-color: black;
+       // background-color: black;
+        font-size: 60px;
+        color: $primaryColor;
     }
     .title {}
     .description {}

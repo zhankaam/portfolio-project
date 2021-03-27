@@ -33,21 +33,23 @@ export function Footer() {
                         <p className={s.paragraph}>phone: +375-396-34-14</p>
                     </div>
                 </div>
-                <div className={s.socialMenu}>
-                    <div className={s.icon}>
-                        <FontAwesomeIcon icon={faInstagramSquare} className={s.iconStyle}/>
+                <div className={s.wrapper}>
+                    <div className={s.socialMenu}>
+                        <div className={s.icon}>
+                            <FontAwesomeIcon icon={faInstagramSquare} className={s.iconStyle}/>
+                        </div>
+                        <div className={s.icon}>
+                            <FontAwesomeIcon icon={faTelegram} className={s.iconStyle}/>
+                        </div>
+                        <div className={s.icon}>
+                            <FontAwesomeIcon icon={faWhatsappSquare} className={s.iconStyle}/>
+                        </div>
+                        <div className={s.icon}>
+                            <FontAwesomeIcon icon={faLinkedin} className={s.iconStyle}/>
+                        </div>
                     </div>
-                    <div className={s.icon}>
-                        <FontAwesomeIcon icon={faTelegram} className={s.iconStyle}/>
-                    </div>
-                    <div className={s.icon}>
-                        <FontAwesomeIcon icon={faWhatsappSquare} className={s.iconStyle}/>
-                    </div>
-                    <div className={s.icon}>
-                        <FontAwesomeIcon icon={faLinkedin} className={s.iconStyle}/>
-                    </div>
+                    <span className={s.copyWriter}>©2021, All Rights Reserved </span>
                 </div>
-                <span className={s.copyWriter}>©2021, All Rights Reserved </span>
             </div>
         </div>
     );
