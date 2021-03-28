@@ -17,8 +17,7 @@ export function Skill(props: PropsType) {
                     <FontAwesomeIcon icon={props.icon} />
                 </div>
             }
-
-            <h3>{props.title}</h3>
+            <h3 className={style.mailTitle}>{props.title}</h3>
             <span className={style.description}>
                 {props.context}
             </span>

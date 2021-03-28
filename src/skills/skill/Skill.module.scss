@@ -2,7 +2,7 @@
 
 .skill {
     width: 250px;
-    background-color: white;
+    //background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +17,15 @@
         font-size: 60px;
         color: $primaryColor;
     }
-    .title {}
-    .description {}
+    .mailTitle {
+        font-weight: 700;
+        font-family: $TitleFontFamily;
+        color: white;
+        letter-spacing: 0.35em;
+        line-height: 1.5;
+    }
+    .description {
+        letter-spacing: 0.05em;
+        color: #ddd;
+    }
 }
