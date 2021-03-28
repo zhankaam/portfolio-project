@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Footer.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faInstagramSquare, faLinkedin, faTelegram, faWhatsappSquare} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faInstagramSquare, faLinkedin, faTelegram, faWhatsappSquare} from '@fortawesome/free-brands-svg-icons';
 import {faMailBulk, faMapMarkedAlt, faMobile} from "@fortawesome/free-solid-svg-icons";
 
 
@@ -36,9 +36,6 @@ export function Footer() {
                 <div className={s.wrapper}>
                     <div className={s.socialMenu}>
                         <div className={s.icon}>
-                            <FontAwesomeIcon icon={faInstagramSquare} className={s.iconStyle}/>
-                        </div>
-                        <div className={s.icon}>
                             <FontAwesomeIcon icon={faTelegram} className={s.iconStyle}/>
                         </div>
                         <div className={s.icon}>
@@ -46,6 +43,12 @@ export function Footer() {
                         </div>
                         <div className={s.icon}>
                             <FontAwesomeIcon icon={faLinkedin} className={s.iconStyle}/>
+                        </div>
+                        <div className={s.icon}>
+                            <FontAwesomeIcon icon={faGithub} className={s.iconStyle}/>
+                        </div>
+                        <div className={s.icon}>
+                            <FontAwesomeIcon icon={faInstagramSquare} className={s.iconStyle}/>
                         </div>
                     </div>
                     <span className={s.copyWriter}>©2021, All Rights Reserved </span>

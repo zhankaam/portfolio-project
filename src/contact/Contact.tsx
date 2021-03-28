@@ -11,7 +11,7 @@ export function Contact() {
                     <form className={s.form}>
                             <input type="text" placeholder={'first name'} className={s.inputClass}/>
                             <input type="text" placeholder={'last name'} className={s.inputClass}/>
-                        <textarea  placeholder={'message'} className={s.inputClass}/>
+                        <textarea  placeholder={'message'} className={s.textareaClass}/>
                         <button className={s.button}>Send</button>
                     </form>
                    </div>

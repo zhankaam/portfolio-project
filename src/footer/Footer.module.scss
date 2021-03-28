@@ -1,5 +1,11 @@
 @import '../common/styles/sass/variables';
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 .footer {
     height: 60vh;
     background-color: $bgSecondColor;
@@ -17,8 +23,8 @@
             .form{
                 //border: 2px solid #c79864;
                 background-color: $bgColor;
-                width: 300px;
-                height: 150px;
+                min-width: 300px;
+                min-height: 150px;
                 .iconBlock {
                     text-align: center;
                     margin-top: 15px;
