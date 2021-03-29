@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.659646de.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.4afbd799.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.4afbd799.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.40824e6a.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.40824e6a.js.map",
-    "static/js/2.5d37e146.chunk.js": "/my-portfolio/static/js/2.5d37e146.chunk.js",
-    "static/js/2.5d37e146.chunk.js.map": "/my-portfolio/static/js/2.5d37e146.chunk.js.map",
-    "static/js/3.ae84d588.chunk.js": "/my-portfolio/static/js/3.ae84d588.chunk.js",
-    "static/js/3.ae84d588.chunk.js.map": "/my-portfolio/static/js/3.ae84d588.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "static/css/main.659646de.chunk.css.map": "/my-portfolio/static/css/main.659646de.chunk.css.map",
-    "static/js/2.5d37e146.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.5d37e146.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/my-portfolio/static/media/SpecifyPERSONAL-ExpBlack.ad157262.ttf",
-    "static/media/ed3b4d774abe.bb2e4390.jpg": "/my-portfolio/static/media/ed3b4d774abe.bb2e4390.jpg",
-    "static/media/todoApp.5e849c83.jpg": "/my-portfolio/static/media/todoApp.5e849c83.jpg"
+    "main.css": "/yarnportfolio-project/static/css/main.044759cf.chunk.css",
+    "main.js": "/yarnportfolio-project/static/js/main.4afbd799.chunk.js",
+    "main.js.map": "/yarnportfolio-project/static/js/main.4afbd799.chunk.js.map",
+    "runtime-main.js": "/yarnportfolio-project/static/js/runtime-main.4932e5e6.js",
+    "runtime-main.js.map": "/yarnportfolio-project/static/js/runtime-main.4932e5e6.js.map",
+    "static/js/2.5d37e146.chunk.js": "/yarnportfolio-project/static/js/2.5d37e146.chunk.js",
+    "static/js/2.5d37e146.chunk.js.map": "/yarnportfolio-project/static/js/2.5d37e146.chunk.js.map",
+    "static/js/3.ae84d588.chunk.js": "/yarnportfolio-project/static/js/3.ae84d588.chunk.js",
+    "static/js/3.ae84d588.chunk.js.map": "/yarnportfolio-project/static/js/3.ae84d588.chunk.js.map",
+    "index.html": "/yarnportfolio-project/index.html",
+    "static/css/main.044759cf.chunk.css.map": "/yarnportfolio-project/static/css/main.044759cf.chunk.css.map",
+    "static/js/2.5d37e146.chunk.js.LICENSE.txt": "/yarnportfolio-project/static/js/2.5d37e146.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/yarnportfolio-project/static/media/SpecifyPERSONAL-ExpBlack.ad157262.ttf",
+    "static/media/ed3b4d774abe.bb2e4390.jpg": "/yarnportfolio-project/static/media/ed3b4d774abe.bb2e4390.jpg",
+    "static/media/todoApp.5e849c83.jpg": "/yarnportfolio-project/static/media/todoApp.5e849c83.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.40824e6a.js",
+    "static/js/runtime-main.4932e5e6.js",
     "static/js/2.5d37e146.chunk.js",
-    "static/css/main.659646de.chunk.css",
+    "static/css/main.044759cf.chunk.css",
     "static/js/main.4afbd799.chunk.js"
   ]
 }
