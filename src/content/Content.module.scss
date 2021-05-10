@@ -1,23 +1,25 @@
 @import '../common/styles/sass/variables';
 
 .contentBlock {
-    min-height: 100vh;
+  min-height: 100vh;
   /*  background-color: #1f1f20;*/
-    background-color: $bgColor;
-    .contentContainer {
-        flex-direction: column;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-        .project {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 20px;
-            align-items: flex-start;
-            @media screen and (max-width: 1129px){
-                justify-content: center;
-            }
-        }
+  background-color: $bgColor;
+
+  .contentContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .project {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      align-items: flex-start;
+      @media screen and (max-width: 1129px) {
+        justify-content: center;
+      }
     }
+  }
 }

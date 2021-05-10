@@ -1,40 +1,45 @@
 @import '../common/styles/sass/variables';
 
 .mainBlock {
-    height: 100vh;
-    background-color: $bgColor;
-    .container {
-        margin-left: 50px;
-        width: 300px;
-        padding: 5px;
-        .greeting {
-            color: #bfbfbf;
-            letter-spacing: .025px;
-            font-size: 16px;
-            line-height: 1.1;
-            font-family: 'Montserrat', sans-serif;
-            text-transform: uppercase;
-        }
-        .fullName {
-            font-family: 'monument extended',Sans-serif;
-            color: white;
-            font-size: 4rem;
-            text-transform: uppercase;
-            line-height: 1em;
-        }
-        .body {
-            color: #c79864;
-            font-family: 'DM Sans', sans-serif;
-            font-size: 16px;
-            text-transform: uppercase;
-            line-height: 28px;
-            letter-spacing: .025px;
-        }
+  height: 100vh;
+  background-color: $bgColor;
+
+  .container {
+    margin-left: 50px;
+    width: 300px;
+    padding: 5px;
+
+    .greeting {
+      color: #bfbfbf;
+      letter-spacing: .025px;
+      font-size: 16px;
+      line-height: 1.1;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
     }
-    .photo{
-        width: 300px;
-        height: 400px;
-        background-color: #999;
+
+    .fullName {
+      font-family: 'monument extended', Sans-serif;
+      color: white;
+      font-size: 4rem;
+      text-transform: uppercase;
+      line-height: 1em;
     }
+
+    .body {
+      color: #c79864;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      line-height: 28px;
+      letter-spacing: .025px;
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-color: #999;
+  }
 }
 

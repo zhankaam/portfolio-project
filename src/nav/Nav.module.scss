@@ -1,22 +1,23 @@
 .nav {
-    //border: 1px solid;
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 30px;
+  //border: 1px solid;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
 
-    .font {
-        font-family: 'DM Sans', sans-serif;
-        color: #999;
-        font-weight: 300;
-        display: block;
-        line-height: 40px;
-        padding: 0 5px;
-        position: relative;
-        letter-spacing: .4px;
-        text-decoration: none;
-        &:hover {
-        color: #c79864;
-        }
+  .font {
+    font-family: 'DM Sans', sans-serif;
+    color: #999;
+    font-weight: 300;
+    display: block;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    letter-spacing: .4px;
+    text-decoration: none;
+
+    &:hover {
+      color: #c79864;
     }
+  }
 }

@@ -6,3 +6,19 @@
   line-height: $line-height;
   text-transform: $text-transform;
 }
+
+@mixin styleForContacts($width,$background-clip,$background-color,$border,
+$border-radius,$color,$display,$font-family,$font-size,$font-weight,$line-height,$padding){
+  width: $width;
+  background-clip: $background-clip;
+  background-color: $background-color;
+  border: $border;
+  border-radius: $border-radius;
+  color: $color;
+  display: $display;
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  padding: $padding;
+}

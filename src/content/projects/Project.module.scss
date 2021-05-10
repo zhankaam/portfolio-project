@@ -2,55 +2,64 @@
 @import '../../common/styles/sass/mixins';
 
 .project {
-    width: 400px;
-    background-color: #111;
+  width: 400px;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .photo {
+    height: 320px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    .photo {
-        height: 320px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        &::before {
-            position: absolute;
-            content: "";
-            background-color: black;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            opacity: 0.4;
-        }
-        .viewButton {
-            width: 150px;
-            height: 50px;
-            background-color: $primaryColor;
-            position: relative;
-            z-index: 1;
-            color: #ffffff;
-        }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
     }
-    .projectInfo {
-        padding: 25px 20px;
-        .projectName {
-        color: #fff;
-        @include text($TitleFontFamily,1.5rem,1.2,uppercase);
-        letter-spacing: -.035em;
-        margin: 8px 0 5px;
-        &:hover { color: #c79864; }
-        }
-        .description {
-            @include text($DescriptionFontFamily,18px, 1.3,null);
-            //font-weight: 500;
-            color: #ddd;
-        }
+
+    .viewButton {
+      width: 150px;
+      height: 50px;
+      background-color: $primaryColor;
+      position: relative;
+      z-index: 1;
+      color: #ffffff;
     }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectName {
+      color: #fff;
+      @include text($TitleFontFamily, 1.5rem, 1.2, uppercase);
+      letter-spacing: -.035em;
+      margin: 8px 0 5px;
+
+      &:hover {
+        color: #c79864;
+      }
+    }
+
+    .description {
+      @include text($DescriptionFontFamily, 18px, 1.3, null);
+      //font-weight: 500;
+      color: #ddd;
+    }
+  }
 }
 
 
