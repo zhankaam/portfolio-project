@@ -11,8 +11,8 @@
         height: 320px;
         width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -32,8 +32,11 @@
             height: 50px;
             background-color: $primaryColor;
             position: relative;
+            border-radius: 25px;
             z-index: 1;
             color: #ffffff;
+            text-align: center;
+           text-decoration: none;
         }
     }
     .projectInfo {
