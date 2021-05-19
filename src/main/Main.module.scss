@@ -1,13 +1,33 @@
 @import '../common/styles/sass/variables';
 
+
+
 .mainBlock {
-  height: 100vh;
+  .containerPhoto {
+    //margin-left: 10%;
+    //margin-right: 5%;
+  }
+
   background-color: $bgColor;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .Container {
+    //width: 100%;
+    //padding-top: 6em;
+    //padding-bottom: 7em;
+    //flex-wrap: wrap;
+    //padding: 0 50px;
+  }
 
   .container {
-    margin-left: 50px;
-    width: 300px;
-    padding: 5px;
+    max-width: 500px;
+    //margin: 0 auto;
+    //max-width: 80%;
+    //padding: 5px;
+    //margin-left: 5%;
+
 
     .greeting {
       color: #bfbfbf;
@@ -21,7 +41,8 @@
     .fullName {
       font-family: 'monument extended', Sans-serif;
       color: white;
-      font-size: 4rem;
+      max-width: 100%;
+      font-size: clamp(1.4rem, -0.875rem + 8.333vw, 3.5rem);
       text-transform: uppercase;
       line-height: 1em;
     }
@@ -38,7 +59,7 @@
 
   .photo {
     width: 300px;
-    height: 400px;
+    min-height: 19em;
     background-color: #999;
   }
 }

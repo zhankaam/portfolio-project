@@ -6,8 +6,6 @@ type PropsType = {
 }
 export const Title: React.FC<PropsType> = (props) => {
     return (
-                <div className={s.contentTitle}>
-                    <h2>{props.title}</h2>
-                </div>
+        <h2 className={s.contentTitle}>{props.title}</h2>
     )
 }

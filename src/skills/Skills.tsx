@@ -14,8 +14,8 @@ import {faCode, faServer, faSitemap} from "@fortawesome/free-solid-svg-icons";
              <div className={style.skills}>
                  <Skill title={"HTML"} context={"Semantic HTML,Landing Pages,Forms"} icon={faHtml5}/>
                  <Skill title={"CSS"} context={"CSS3,Sass/Less,CSS-Modules,Grid,BEM,Material-UI,Ant-design"} icon={faCss3Alt}/>
-                 <Skill title={"JS/TS"} context={"JS:,SOLID,Async functions,Promise,Async-await,Event-Loop,This" +
-                 "TS: Migrate projects from JS to TS..."} icon={faJsSquare}/>
+                 <Skill title={"JS/TS"} context={`JS:SOLID,Async functions,Promise,Async-await,Event-Loop,This;
+                  TS: Migrate projects from JS to TS...`} icon={faJsSquare}/>
                  <Skill title={"React"} context={"SPA,Functional/Class components,Hooks,React-router-dom,other libraries..."} icon={faReact}/>
                  <Skill title={"Redux"} context={"React-Redux,Redux-Form,Redux-thunk,Thunk-Creator,Reducer,Hooks,Hoc-connect,Selectors,Principles of Flux..."} icon={faSitemap}/>
                  <Skill title={"Rest API"} context={"Axios library,CRUD-operations..."} icon={faServer}/>

@@ -31,10 +31,16 @@
     }
 
     .viewButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
       width: 150px;
       height: 50px;
       background-color: $primaryColor;
+      font-family: "Jost", sans-serif;
       position: relative;
+      border-radius: 25px;
       z-index: 1;
       color: #ffffff;
     }
