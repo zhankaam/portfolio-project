@@ -5,12 +5,15 @@ import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import {faCss3Alt, faHtml5, faJsSquare, faReact, faStripeS} from "@fortawesome/free-brands-svg-icons";
 import {faCode, faServer, faSitemap} from "@fortawesome/free-solid-svg-icons";
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 export function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={"Skills"}/>
+                <Fade left>
                 <div className={style.skills}>
                     <Skill title={"HTML"} context={"Semantic HTML,Landing Pages,Forms"} icon={faHtml5}/>
                     <Skill title={"CSS"} context={"CSS3,Sass/Less,CSS-Modules,Material-UI,Ant-design"} icon={faCss3Alt}/>
@@ -28,6 +31,7 @@ export function Skills() {
                            context={"Storybook is an open source tool for developing UI components in isolation for React, Vue, Angular, and more. "}
                            icon={faStripeS}/>
                 </div>
+                </Fade>
             </div>
         </div>
     )

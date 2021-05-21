@@ -4,6 +4,8 @@ import styleContainer from "../common/styles/Container.module.scss";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faInstagramSquare, faLinkedin, faTelegram, faWhatsappSquare} from '@fortawesome/free-brands-svg-icons';
 import {faMailBulk, faMapMarkedAlt, faMobile} from "@fortawesome/free-solid-svg-icons";
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 
 export function Footer() {
@@ -33,6 +35,7 @@ export function Footer() {
                         <p className={s.paragraph}>phone: +375-396-34-14</p>
                     </div>
                 </div>
+                <Fade bottom>
                 <div className={s.wrapper}>
                     <div className={s.socialMenu}>
                         <div className={s.icon}>
@@ -53,6 +56,7 @@ export function Footer() {
                     </div>
                     <span className={s.copyWriter}>©2021, All Rights Reserved </span>
                 </div>
+                </Fade>
             </div>
         </div>
     );

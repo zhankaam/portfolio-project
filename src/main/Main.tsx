@@ -4,6 +4,8 @@ import styleContainer from '../common/styles/Container.module.scss';
 import Particles from 'react-particles-js';
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
+// @ts-ignore
+import ReactTypingEffect from 'react-typing-effect';
 
 const particlesOptions = {
     particles: {
@@ -27,7 +29,8 @@ export function Main() {
                     <div className={s.container}>
                         <h5 className={s.greeting}>hello,my name is</h5>
                         <h1 className={s.fullName}>Zhanat Lepesbayeva</h1>
-                        <span className={s.body}>I'm a Freelance Front-end Developer based in Minsk,BY</span>
+                        <ReactTypingEffect className={s.body}
+                            text={["I'm a Freelance Front-end Developer based in Minsk,BY"]}/>
                     </div>
                 </Fade>
                 <Fade right>
