@@ -12,6 +12,8 @@
         width: 100%;
         display: flex;
         align-items: center;
+        align-content: center;
+        flex-direction: column;
         justify-content: center;
         background-size: cover;
         background-position: center;
@@ -35,7 +37,9 @@
             border-radius: 25px;
             z-index: 1;
             color: #ffffff;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
            text-decoration: none;
         }
     }

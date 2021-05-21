@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Main.module.scss';
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 
 export function Main() {
     return (

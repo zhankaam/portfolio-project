@@ -11,10 +11,11 @@
         .project {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             flex-wrap: wrap;
             margin-top: 20px;
             align-items: flex-start;
+            gap: 10px;
             @media screen and (max-width: 1129px){
                 justify-content: center;
             }

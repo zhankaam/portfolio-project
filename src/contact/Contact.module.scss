@@ -21,6 +21,14 @@
             align-items: center;
             flex-wrap: wrap;
             padding-bottom: 10px;
+
+            @media screen and (max-width: 768px){
+                width: 80%;
+            }
+
+            @media screen and (max-width: 476px){
+                width: 100%;
+            }
             .inputClass {
                 background-clip: padding-box;
                 background-color: #fff;
