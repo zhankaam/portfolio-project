@@ -6,6 +6,10 @@ import Particles from 'react-particles-js';
 import Fade from 'react-reveal/Fade';
 // @ts-ignore
 import ReactTypingEffect from 'react-typing-effect';
+// @ts-ignore
+import Tilt from 'react-tilt'
+
+
 
 const particlesOptions = {
     particles: {
@@ -34,9 +38,11 @@ export function Main() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <div className={s.photo}>
-                        <div className={s.image}></div>
-                    </div>
+                    {/*<Tilt className={s.tilt} options={{ max : 25 }}  >*/}
+                        <div className={s.photo}>
+                            <div className={s.image}></div>
+                        </div>
+                    {/*</Tilt>*/}
                 </Fade>
             </div>
         </div>
