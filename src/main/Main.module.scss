@@ -4,7 +4,14 @@
   min-height: 100vh;
   background-color: $bgColor;
   padding-bottom: 50px;
-
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
   .container {
     max-width: 519px;
     padding: 5px;
@@ -24,6 +31,18 @@
       font-size: 55px;
       text-transform: uppercase;
       line-height: 80px;
+      position: relative;
+      z-index: 0;
+      display: inline-block;
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        background-color: $primaryColor;
+        bottom: 0;
+        z-index: -1;
+      }
     }
 
     .body {

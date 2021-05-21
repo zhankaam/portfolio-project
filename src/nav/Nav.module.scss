@@ -1,10 +1,11 @@
+@import '../common/styles/sass/variables';
+
 .nav {
-    //border: 1px solid;
     width: 300px;
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
-
+    //background-color: $bgSecondColor;
     .font {
         font-family: 'DM Sans', sans-serif;
         color: #999;
