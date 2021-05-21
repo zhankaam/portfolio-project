@@ -1,89 +1,95 @@
 @import '../common/styles/sass/variables';
 
 .fullBlock {
-    min-height: 60vh;
-    background-color: $bgColor;
-    .contactContainer {
-        flex-direction: column;
-        justify-content: flex-start;
-        .title {
-            background-color: oldlace;
-        }
-        .form {
-            margin-top: 20px;
-          //  border: 2px solid tan;
-            width: 60%;
-            min-height: 250px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            padding-bottom: 10px;
+  min-height: 60vh;
+  background-color: $bgColor;
 
-            @media screen and (max-width: 768px){
-                width: 80%;
-            }
+  .contactContainer {
+    flex-direction: column;
+    justify-content: flex-start;
 
-            @media screen and (max-width: 476px){
-                width: 100%;
-            }
-            .inputClass {
-                background-clip: padding-box;
-                background-color: #fff;
-                border: 1px solid #ced4da;
-                border-radius: .25rem;
-                color: #495057;
-                display: block;
-                font-family: Georgia;
-                font-size: 1rem;
-                font-weight: 400;
-                height: calc(1.5em + .75rem + 2px);
-                line-height: 1.5;
-                padding: .375rem .75rem;
-                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-                width: 100%;
-            }
-            .textareaClass {
-                width: 100%;
-                min-height: 100px;
-                background-clip: padding-box;
-                background-color: #fff;
-                border: 1px solid #ced4da;
-                border-radius: .25rem;
-                color: #495057;
-                display: block;
-                font-family: Georgia;
-                font-size: 1rem;
-                font-weight: 400;
-                line-height: 1.5;
-                padding: .375rem .75rem;
-                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-            }
-            .button {
-                position: relative;
-                display: inline-block;
-                min-width: 155px;
-                color: #fff;
-                padding: 16px 0;
-                font-family: Georgia;
-                font-size: 14px;
-                font-weight: 600;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                text-align: center;
-                background-color: #c79864;
-                border: 1px solid #c79864;
-                border-radius: 4px;
-                outline: none;
-                -webkit-transition: all .4s ease-in-out;
-                &:hover {
-                    background-color: #202020;
-                }
-            }
-        }
+    .title {
+      background-color: oldlace;
     }
+
+    .form {
+      margin-top: 20px;
+      width: 60%;
+      min-height: 250px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-bottom: 10px;
+
+      @media screen and (max-width: 768px) {
+        width: 80%;
+      }
+
+      @media screen and (max-width: 476px) {
+        width: 100%;
+      }
+
+      .inputClass {
+        background-clip: padding-box;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        color: #495057;
+        display: block;
+        font-family: Georgia;
+        font-size: 1rem;
+        font-weight: 400;
+        height: calc(1.5em + .75rem + 2px);
+        line-height: 1.5;
+        padding: .375rem .75rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        width: 100%;
+      }
+
+      .textareaClass {
+        width: 100%;
+        min-height: 100px;
+        background-clip: padding-box;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        color: #495057;
+        display: block;
+        font-family: Georgia;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: .375rem .75rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      }
+
+      .button {
+        position: relative;
+        display: inline-block;
+        min-width: 155px;
+        color: #fff;
+        padding: 16px 0;
+        font-family: Georgia;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        background-color: #c79864;
+        border: 1px solid #c79864;
+        border-radius: 4px;
+        outline: none;
+        -webkit-transition: all .4s ease-in-out;
+
+        &:hover {
+          background-color: #202020;
+        }
+      }
+    }
+  }
 }
 
 

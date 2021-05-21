@@ -2,7 +2,6 @@
 
 .skill {
     width: 250px;
-    //background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,15 +10,12 @@
     margin-bottom: 10px;
     box-sizing: border-box;
     .icon {
-        //height: 60px;
-        //width: 60px;
-       // background-color: black;
         font-size: 60px;
         color: $primaryColor;
     }
     .mailTitle {
         font-weight: 700;
-        font-family: $TitleFontFamily;
+        font-family: 'Montserrat', sans-serif;;
         color: white;
         letter-spacing: 0.35em;
         line-height: 1.5;
@@ -27,5 +23,8 @@
     .description {
         letter-spacing: 0.05em;
         color: #ddd;
+        font-family: 'Padauk', sans-serif;
+        font-weight: bold;
+        text-transform: initial;
     }
 }

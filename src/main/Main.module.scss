@@ -1,65 +1,66 @@
 @import '../common/styles/sass/variables';
 
 .mainBlock {
-    min-height: 100vh;
-    background-color: $bgColor;
-    padding-bottom: 50px;
-    .container {
-        //margin-left: 50px;
-        max-width: 519px;
-        padding: 5px;
-        .greeting {
-            color: #bfbfbf;
-            letter-spacing: .025px;
-            font-size: 16px;
-            line-height: 1.1;
-            font-family: 'Montserrat', sans-serif;
-            text-transform: uppercase;
-        }
-        .fullName {
-            font-family: 'monument extended',Sans-serif;
-            color: white;
-            font-size: 55px;
-            text-transform: uppercase;
-            line-height: 80px;
-        }
-        .body {
-            color: #c79864;
-            font-family: 'DM Sans', sans-serif;
-            font-size: 16px;
-            text-transform: uppercase;
-            line-height: 28px;
-            letter-spacing: .025px;
-        }
+  min-height: 100vh;
+  background-color: $bgColor;
+  padding-bottom: 50px;
+
+  .container {
+    max-width: 519px;
+    padding: 5px;
+
+    .greeting {
+      color: #bfbfbf;
+      letter-spacing: .025px;
+      font-size: 16px;
+      line-height: 1.1;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
     }
-    .photo{
-        max-width: 300px;
-        width: 100%;
-        height: 400px;
-        background-color: #999;
-        margin-right: 20px;
+
+    .fullName {
+      font-family: 'monument extended', Sans-serif;
+      color: white;
+      font-size: 55px;
+      text-transform: uppercase;
+      line-height: 80px;
     }
+
+    .body {
+      color: #c79864;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      line-height: 28px;
+      letter-spacing: .025px;
+    }
+  }
+
+  .photo {
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+    background-color: #999;
+    margin-right: 20px;
+  }
 }
 
 
-
 @media screen and (max-width: 768px) {
-    .mainBlock {
-        .container {
-            .greeting {
-                font-size: 10px;
-            }
+  .mainBlock {
+    .container {
+      .greeting {
+        font-size: 10px;
+      }
 
-            .fullName {
-                font-size: 30px;
-                line-height: 40px;
-            }
+      .fullName {
+        font-size: 30px;
+        line-height: 40px;
+      }
 
-            .photo{
-                margin-right: 0;
-            }
-        }
+      .photo {
+        margin-right: 0;
+      }
     }
-
-
+  }
 }
