@@ -1,7 +1,6 @@
 @import '../../styles/sass/variables';
 
 .contentTitle {
-    /*background-color: #c16450;*/
     margin: 0 0 30px;
     font-family: 'monument extended',Sans-serif;
     font-weight: 400;
@@ -9,13 +8,12 @@
     letter-spacing: -.035em;
     line-height: 1.1;
     color: #fff;
-    //margin-bottom: 30px;
     position: relative;
     &::before {
         content: "";
         background: $primaryColor;
-        width: 55px;
-        height: 3px;
+        width: 70px;
+        height: 4px;
         position: absolute;
         bottom: -30px;
         left: 50%;
