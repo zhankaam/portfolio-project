@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 export function Contact() {
     return (
-        <div className={s.fullBlock}>
+        <div id="contact" className={s.fullBlock}>
             <div className={`${styleContainer.container} ${s.contactContainer}`}>
                 <div>
                     <Title title={"Contact me"} />

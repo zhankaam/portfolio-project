@@ -3,9 +3,11 @@
 .nav {
     width: 300px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-right: 30px;
-    //background-color: $bgSecondColor;
+    flex-wrap: nowrap;
+
     .font {
         font-family: 'DM Sans', sans-serif;
         color: #999;
