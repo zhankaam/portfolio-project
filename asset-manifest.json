@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7a3ff1e2.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.3cadc3ee.chunk.css",
     "main.js": "/my-portfolio/static/js/main.43b88be1.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.43b88be1.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.24acf3cf.js",
@@ -10,7 +10,7 @@
     "static/js/3.0fc68485.chunk.js": "/my-portfolio/static/js/3.0fc68485.chunk.js",
     "static/js/3.0fc68485.chunk.js.map": "/my-portfolio/static/js/3.0fc68485.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.7a3ff1e2.chunk.css.map": "/my-portfolio/static/css/main.7a3ff1e2.chunk.css.map",
+    "static/css/main.3cadc3ee.chunk.css.map": "/my-portfolio/static/css/main.3cadc3ee.chunk.css.map",
     "static/js/2.b6f077d1.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.b6f077d1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/my-portfolio/static/media/SpecifyPERSONAL-ExpBlack.ad157262.ttf",
     "static/media/ed3b4d774abe.bb2e4390.jpg": "/my-portfolio/static/media/ed3b4d774abe.bb2e4390.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.24acf3cf.js",
     "static/js/2.b6f077d1.chunk.js",
-    "static/css/main.7a3ff1e2.chunk.css",
+    "static/css/main.3cadc3ee.chunk.css",
     "static/js/main.43b88be1.chunk.js"
   ]
 }
