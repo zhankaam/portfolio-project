@@ -9,10 +9,10 @@ export function Nav() {
     return (
         <Fade top>
         <div className={style.nav}>
-            <a href="" className={style.font}>Home</a>
-            <a href="#skills" className={style.font}>Skills</a>
-            <a href="#projects" className={style.font}>What I do</a>
-            <a href="#contact" className={style.font}>Contact</a>
+            <a href="" >Home</a>
+            <a href="#skills" >Skills</a>
+            <a href="#projects" >What I do</a>
+            <a href="#contact" >Contact</a>
             {/*<Link*/}
             {/*    activeClass={style.active}*/}
             {/*    to="section1"*/}
