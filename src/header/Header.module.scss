@@ -1,9 +1,11 @@
 @import '../common/styles/sass/variables';
 
 .header {
+    position: relative;
     height: 80px;
-    background-color: $bgColor;
+    background-color: #202020;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 1;
 }

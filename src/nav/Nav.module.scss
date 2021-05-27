@@ -1,29 +1,31 @@
 @import '../common/styles/sass/variables';
 
 .nav {
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: stretch;
-    //margin-right: 30px;
-    flex-wrap: nowrap;
-    width: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: stretch;
+  //margin-right: 30px;
+  flex-wrap: nowrap;
+  width: 340px;
 
-    a {
-        font-family: 'DM Sans', sans-serif;
-        color: #999;
-        font-weight: bold;
-        //display: block;
-        line-height: 40px;
-        padding: 0 5px;
-        //position: relative;
-        //letter-spacing: .4px;
-       cursor: pointer;
-        &:hover {
-                text-decoration: overline;
-                color: #c79864;
-        }
+  margin-right: 20px;
+
+  a {
+    font-family: 'DM Sans', sans-serif;
+    color: #999;
+    font-weight: bold;
+    //display: block;
+    line-height: 40px;
+    padding: 0 5px;
+    //position: relative;
+    //letter-spacing: .4px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: overline;
+      color: #c79864;
     }
+  }
 
 }
