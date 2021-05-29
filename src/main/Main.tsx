@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 // @ts-ignore
 import Tilt from 'react-tilt'
-
+import myPhoto from '../common/styles/image/myPhoto.jpg'
 
 
 const particlesOptions = {
@@ -38,11 +38,9 @@ export function Main() {
                     </div>
                 </Fade>
                 <Fade right>
-                    {/*<Tilt className={s.tilt} options={{ max : 25 }}  >*/}
-                        <div className={s.photo}>
-                            <div className={s.image}></div>
-                        </div>
-                    {/*</Tilt>*/}
+                    <Tilt className={s.tilt} options={{ max : 25 }}  >
+                        <img src={myPhoto} className={s.photo} alt={"myPicture"}/>
+                    </Tilt>
                 </Fade>
             </div>
         </div>
