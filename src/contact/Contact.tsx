@@ -24,14 +24,9 @@ export function Contact() {
         setMessage(e.currentTarget.value)
     }
 
-
     const getDataRequest = (name: string,lastName: string,message: string) => {
        return axios.post(`http://localhost:3010/sendMessage`,{name,lastName,message})
     }
-
-    // useEffect(() => {
-    //     getDataRequest(name,lastName,message)
-    // },[name,lastName,message])
 
     return (
         <div id="contact" className={s.fullBlock}>
