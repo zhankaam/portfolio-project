@@ -25,13 +25,13 @@ export function Contact() {
     }
 
 
-    const getDataRequest = async (name: string,lastName: string,message: string) => {
-       await axios.post(`http://localhost:3000/sendMessage`,{name,lastName,message})
+    const getDataRequest = (name: string,lastName: string,message: string) => {
+       return axios.post(`http://localhost:3010/sendMessage`,{name,lastName,message})
     }
 
-    useEffect(() => {
-        getDataRequest(name,lastName,message)
-    },[name,lastName,message])
+    // useEffect(() => {
+    //     getDataRequest(name,lastName,message)
+    // },[name,lastName,message])
 
     return (
         <div id="contact" className={s.fullBlock}>
@@ -40,7 +40,10 @@ export function Contact() {
                     <Title title={"Contact me"}/>
                 </div>
                 <Fade right>
-                    <form className={s.form}>
+                    <form className={s.form} onSubmit={event => {
+                        event.preventDefault()
+                        getDataRequest(name,lastName,message)
+                    }}>
                         <input
                             type="text"
                             placeholder={'first name'}
@@ -61,7 +64,7 @@ export function Contact() {
                             value={message}
                             onChange={onMessageChanged}
                         />
-                        <button className={s.button}>Send</button>
+                        <button className={s.button} >Send</button>
                     </form>
                 </Fade>
             </div>
