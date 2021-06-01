@@ -32,26 +32,26 @@ export function Footer() {
                             <FontAwesomeIcon icon={faMobile} className={s.infoIcons} />
                         </div>
                         <h5 className={s.mainText}>Phone</h5>
-                        <p className={s.paragraph}>phone: +375-396-34-14</p>
+                        <p className={s.paragraph}>phone: +375-44-744-27-95</p>
                     </div>
                 </div>
                 <Fade bottom>
                 <div className={s.wrapper}>
                     <div className={s.socialMenu}>
                         <div className={s.icon}>
-                            <FontAwesomeIcon icon={faTelegram} className={s.iconStyle}/>
+                            <FontAwesomeIcon icon={faTelegram} href={"https://web.telegram.org/#/im"} className={s.iconStyle}/>
                         </div>
                         <div className={s.icon}>
-                            <FontAwesomeIcon icon={faWhatsappSquare} className={s.iconStyle}/>
+                            <FontAwesomeIcon icon={faWhatsappSquare} href={"https://www.whatsapp.com/?lang=ru"} className={s.iconStyle}/>
                         </div>
                         <div className={s.icon}>
-                            <FontAwesomeIcon icon={faLinkedin} className={s.iconStyle}/>
+                            <FontAwesomeIcon icon={faLinkedin} href={"https://www.linkedin.com/in/zhanat-lepesbayeva-937a06201/"} className={s.iconStyle}/>
                         </div>
                         <div className={s.icon}>
-                            <FontAwesomeIcon icon={faGithub} className={s.iconStyle}/>
+                            <FontAwesomeIcon icon={faGithub} href={"https://github.com/zhankaam"} className={s.iconStyle}/>
                         </div>
                         <div className={s.icon}>
-                            <FontAwesomeIcon icon={faInstagramSquare} className={s.iconStyle}/>
+                            <FontAwesomeIcon icon={faInstagramSquare} href={"https://www.instagram.com/?hl=ru"} className={s.iconStyle}/>
                         </div>
                     </div>
                     <span className={s.copyWriter}>©2021, All Rights Reserved </span>
